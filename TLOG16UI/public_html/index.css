@@ -6,6 +6,11 @@
     background-color: limegreen; 
 }
 
+#bootstrap-override-index-body .navbar-nav>.active>a,
+#bootstrap-override-dayview-body .navbar-nav>.active>a{
+    background-color: #ffff00;
+}
+
 .div-below-navbar{
     margin-top: 75px;
 }

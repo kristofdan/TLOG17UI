@@ -8,7 +8,9 @@
         <link rel="stylesheet" href="index.css">
         
         <!-- jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="scripts/jquery.min.js"></script>
+        
+        <script src="scripts/calendar.js"></script>
         
          <!-- Bootstrap latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -48,62 +50,16 @@
                                 <th>Sun</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>3</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>6</td>
-                                <td>7</td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>3</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>6</td>
-                                <td>7</td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>3</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>6</td>
-                                <td>7</td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>3</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>6</td>
-                                <td>7</td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>3</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>6</td>
-                                <td>7</td>
-                            </tr>
-                        </tbody>
+                        <!-- tbody created in calendar.js-->
                     </table>
                     <ul class="pager">
                         <li>
-                            <a href="#">
+                            <a id="pager-previous" href="#">
                                 <span class="glyphicon glyphicon-menu-left"></span>Previous
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a id="pager-next" href="#">
                                 Next<span class="glyphicon glyphicon-menu-right"></span>
                             </a>
                         </li>
